@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
   background: rgb(32,32,36);
+  background-image: url('../images/academia.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-size: 100%;
+  min-height: 590px;
 }
 
 header {
@@ -13,6 +21,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding:20px;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .container {
@@ -24,9 +33,19 @@ header {
   justify-content: space-around;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
 .logo h1 {
+  font-family: sans-serif;
+  color: rgb(32,32,36);
   cursor: pointer;
 }
+
 
 nav ul {
   list-style: none;
@@ -43,14 +62,166 @@ nav ul li {
 nav ul li a {
   font-size: 18px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(32,32,36);
   font-family: Verdana, sans-serif;
   text-transform: uppercase;
-  font-style: italic;
+  /* font-style: italic; */
   transition: all 0.2s;
 }
 
 nav ul li a:hover {
-  color: #000;
+  color: #ddd;
   text-decoration: underline;
+}
+
+.painel {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.painel .titulo h1{
+ font-size: 40px;
+ letter-spacing: 5px;
+}
+
+.painel .subtitulo p {
+ text-align: center;
+ letter-spacing: 1px;
+ line-height: 26px;
+ font-size:16px;
+}
+
+.painel .titulo,.subtitulo {
+  margin-bottom:35px;
+  color: #fff;
+}
+
+.painel  .botoes a{
+ margin-right:35px;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight:600;
+ letter-spacing: 1px;
+}
+
+.painel  .botoes .btn-white {
+  background-color:#fff;
+  color:#000;
+  padding: 15px;
+}
+
+.painel .botoes .btn-green {
+  background-color: rgb(64, 165, 64);
+  padding: 15px;
+  color: #fff;
+}
+
+.painel .botoes .btn-green:hover, .btn-white:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+.conteudo p {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.conteudo i {
+  color: #000;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.conteudo .destaques img {
+  width: 250px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.plano {
+  position: relative;
+}
+
+.conteudo .plano img {
+  width: 100%;
+  height: 400px;
+  /* position: relative; */
+}
+
+.conteudo .plano p {
+  position: absolute;
+  bottom: 220px;
+  right: 400px;
+  color: #ddd;
+  font-size: 27px;
+}
+
+.conteudo .plano p span {
+  font-weight: bold;
+}
+
+.conteudo .plano a {
+  position: absolute;
+  bottom: 160px;
+  right: 555px;
+  color: #ddd;
+  font-size: 27px;
+
+  background-color: rgb(64, 165, 64);
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.conteudo .plano a:hover {
+  opacity: 0.9;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.localizacao {
+  display: flex;
+  justify-content: space-around;
+  align-content:center ;
+  margin-top:15px;
+  margin-bottom: 10px;
+  background-color: rgb(20,20, 20);
+}
+
+.localizacao h2 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.localizacao .contato, .location, .horarios, h2{
+  margin-bottom: 15px;
+}
+.localizacao .contato, .location, .horarios ul, li {
+  list-style: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+
+.desenvolvida {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-color: #fff;
 }
