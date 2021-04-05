@@ -1,0 +1,103 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  background-color:rgba(32, 32, 36, 0.459);
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.content .sobre h1 {
+  font-size: 40px;
+  margin-bottom:18px;
+  color:#e1e1e1;
+}
+
+.content .sobre p {
+  font-size: 20px;
+  text-align:center;
+  line-height:28px;
+  color: #fff;
+}
+
+.content .comodidades {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(32, 32, 36, 0.459);
+  margin-top: 25px;
+  width: 1050px;
+  height: 200px;
+}
+
+.content .comodidades h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .comodidades .como_1, .como_2, 
+.como_3, .como_4, .como_5, .como_6, .como_7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  width: 120px;
+  height: 120px;
+  padding:15px;
+  margin-right: 25px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.1s;
+}
+
+.content .comodidades .como_1:hover, .como_2:hover, 
+.como_3:hover, .como_4:hover, .como_5:hover, .como_6:hover, .como_7:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  border:2px solid #000;
+}
+
+.content .comodidades span {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.content .aulas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 1050px;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color:rgba(32, 32, 36, 0.459);
+}
+
+.content .aulas p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content .aulas ul {
+  display: flex;
+}
+
+.content .aulas ul li {
+  padding: 10px;
+}
+
+.content .aulas ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
