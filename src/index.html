@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gym Club</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/components/header.css">
+  <link rel="stylesheet" href="./assets/components/footer.css">
 </head>
 <body>
   <header>
@@ -17,9 +19,8 @@
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="./pages/Sobre/index.html">Sobre</a></li>
-          <li><a href="">Filiações</a></li>
-          <li><a href="">Trainers</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="./pages/Afiliacoes/index.html">Filiações</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -34,14 +35,14 @@
     </div>
 
     <div class="botoes">
-      <a class="btn-white" href="#">LEIA MAIS</a>
-      <a class="btn-green" href="#">VER PLANOS</a>
+      <a class="btn-white" href="./pages/Sobre/index.html">LEIA MAIS</a>
+      <a class="btn-green" href="./pages/Afiliacoes/index.html">VER PLANOS</a>
     </div>
   </div>
 
   <section class="conteudo">
     <p>Movimente seu corpo. Discipline sua mente. <br> Conheça nossa estrutura.</p>
-    <i class="fas fa-chevron-down fa-lg"></i>
+    <i id="animation" class="fas fa-chevron-down fa-lg"></i>
     <div class="destaques">
       <img src="./assets/images/img_01.jpg" alt="01">
       <img src="./assets/images/img_02.jpg" alt="02">
@@ -52,11 +53,11 @@
     <div class="plano">
       <img src="./assets/images/bg_02.png" alt="">
       <p>Aproveite está oportunidade exclusiva! <br> Experimente <span>5 dias grátis</span> no programa <span>Free Pass </span></p>
-    <a href="#">SOLICITE-NOS AGORA!</a>
+    <a href="#" id="btn_animation">SOLICITE-NOS AGORA!</a>
     </div>
   </section>
   <div class="localizacao">
-    <div class="contato">
+    <div class="contato" id="contato">
       <h2>CONTATO</h2>
       <span>(64) 99241-8112</span>
       <h2>FALE CONOSCO</h2>

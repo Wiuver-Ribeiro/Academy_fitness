@@ -1,0 +1,32 @@
+.localizacao {
+  display: flex;
+  justify-content: space-around;
+  align-content:center ;
+  margin-top:15px;
+  margin-bottom: 10px;
+  background-color: rgb(20,20, 20);
+}
+
+.localizacao h2 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.localizacao .contato, .location, .horarios, h2{
+  margin-bottom: 15px;
+}
+.localizacao .contato, .location, .horarios ul, li {
+  list-style: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+
+.desenvolvida {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-color: #fff;
+}

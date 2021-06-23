@@ -1,0 +1,92 @@
+.planos {
+  margin-top:3rem;
+}
+
+.premium, .essencial, .basico {
+  background-color: #e1e1e1;
+  border-radius:0.45rem;
+  display:flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.premium h2 {
+  background: #333333;
+  color: #fff;
+}
+
+.essencial h2 {
+  background: #CAAE5F;
+  color: #333;
+  padding-top: 1rem;
+}
+
+.basico h2 {
+  background: #CCCACB;
+  color: #3E3E3E;
+}
+
+.premium h2, .essencial h2, .basico h2 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+
+  height:100px;
+}
+
+.premium span, .essencial span, .basico span {
+  text-transform: uppercase;
+  font-size:1.2rem;
+  color: #3E3E3E;
+}
+
+.essencial .best-seller {
+  display:block;
+  position: absolute;
+  text-align: center;
+  top: 28%;
+  left:45%;
+  font-size: 0.8rem;
+  background: #333;
+  padding: 0.10rem;
+  color: #fff;
+}
+.essencial .best-seller:before {
+  content:"* ";
+}
+.essencial .best-seller:after {
+  content:" *"
+}
+
+.premium li, .essencial li, .basico li {
+  color: #000;
+  line-height:1.8rem;
+}
+
+.beneficios {
+  padding: 1.2rem;
+}
+
+.beneficios span{
+  display: block;
+ color: #000;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 0.45rem;
+}
+
+
+
+
+.green {
+  color: green;
+  padding-right: 10px;
+}
+
+.red {
+  color: red;
+  padding-right: 10px;
+}
